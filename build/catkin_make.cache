@@ -1,0 +1,2 @@
+homework
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/lyq/ros_hm_ws/devel -DCMAKE_INSTALL_PREFIX=/home/lyq/ros_hm_ws/install -G Unix Makefiles
