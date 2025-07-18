@@ -1,0 +1,8 @@
+# 角速度 (rad/s)
+angular_velocity: 2.0
+
+# 轨迹参数
+trajectory:
+  radius: 3    # 圆形轨迹半径
+  center_x: 5  # 轨迹中心x坐标
+  center_y: 10  # 轨迹中心y坐标

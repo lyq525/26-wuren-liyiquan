@@ -1,0 +1,13 @@
+<launch>
+    <!-- 启动turtlesim节点 -->
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim" />
+    
+    <!-- 加载参数到参数服务器 -->
+    <rosparam command="load" file="$(find homework)/config/turtle_params.yaml" />
+    
+    <!-- 启动线速度发布节点 -->
+    <node pkg="homework" type="linear_velocity_publisher.py" name="velocity_publisher" />
+    
+    <!-- 启动乌龟控制节点 -->
+    <node pkg="homework" type="linear_velocity_subscriber" name="turtle_controller" output="screen" />
+</launch>
