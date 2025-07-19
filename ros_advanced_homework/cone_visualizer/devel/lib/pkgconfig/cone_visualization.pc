@@ -1,0 +1,8 @@
+prefix=/home/lyq/cone_visualizer/devel
+
+Name: cone_visualization
+Description: Description of cone_visualization
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
