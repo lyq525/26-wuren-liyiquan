@@ -1,4 +1,4 @@
-个人仓库地址:
+仓库地址:https://github.com/lyq525/26-wuren-liyiquan/tree/main/ros_advanced_homework
 终于把进阶作业敲出来了......有关ros学习的东西已经在基础版的readme中写完了，这边主要讲一下进阶作业的思路和困难吧
 1.统计红蓝锥桶数量：我把rosbag中的msg导出为了crv格式，然后在libreoffice中打开（毕竟用表格工具比自己写程序统计简单多了）。在一串数字之间r和b的字母显得格外显眼，所以毫无疑问这指的
 是锥桶的红色和蓝色。剩下的就是筛选一下，统计出来各自占了多少行就行了
