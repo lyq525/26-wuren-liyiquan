@@ -1,8 +1,0 @@
-prefix=/home/lyq/cpp_homework_01/install
-
-Name: cpp_hw01
-Description: Description of cpp_hw01
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: roscpp sensor_msgs cv_bridge std_msgs fsd_common_msgs
