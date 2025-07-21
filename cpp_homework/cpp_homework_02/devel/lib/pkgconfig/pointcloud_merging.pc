@@ -1,0 +1,8 @@
+prefix=/home/lyq/cpp_homework_02/devel
+
+Name: pointcloud_merging
+Description: Description of pointcloud_merging
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: fsd_common_msgs roscpp std_msgs pcl_ros pcl_conversions
